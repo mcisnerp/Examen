@@ -27,7 +27,7 @@ public class SistemaService {
         items.add(new CD(code,name));
     }
 
-    public void crearPrestamo( String dni,Integer codigo){
+    public void crearPrestamo( String dni,Integer  codigo){
         prestamos.add(new Cliente(dni).addPrestamo(new Prestamo(codigo)));
     }
 
